@@ -1,0 +1,22 @@
+PODS:
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
+  - TTGTagCollectionView (2.0.1)
+
+DEPENDENCIES:
+  - SDWebImage
+  - TTGTagCollectionView
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+    - TTGTagCollectionView
+
+SPEC CHECKSUMS:
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+  TTGTagCollectionView: 29d01ece199c257943ba490e9989734382cda5ae
+
+PODFILE CHECKSUM: 5688efbc200e0e7b8ded8feeba8ee5e6d6ce5646
+
+COCOAPODS: 1.11.2
