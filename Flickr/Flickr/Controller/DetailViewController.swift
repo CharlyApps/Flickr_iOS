@@ -78,11 +78,11 @@ class DetailViewController: UIViewController {
         for t in tags!{
             
             let content = TTGTextTagStringContent.init(text: t)
-                content.textColor = UIColor.black
+                content.textColor = UIColor.white
                 content.textFont = UIFont.boldSystemFont(ofSize: 16)
                         
             let normalStyle = TTGTextTagStyle.init()
-                normalStyle.backgroundColor = UIColor.white
+                normalStyle.backgroundColor = UIColor.purple
                 normalStyle.extraSpace = CGSize.init(width: 8, height: 8)
                         
             let tag = TTGTextTag.init()
