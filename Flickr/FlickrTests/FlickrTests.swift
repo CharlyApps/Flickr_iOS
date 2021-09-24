@@ -32,7 +32,7 @@ class FlickrTests: XCTestCase {
     func testApiResponse() {
         
         let apiClient = API()
-        
+        //Use a dictionary to testcases
         let request = "home"
         
         let expectations = self.expectation(description: "Valid JSON Response")

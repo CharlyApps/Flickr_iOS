@@ -56,6 +56,8 @@ class DetailViewController: UIViewController {
     
     func getAuthorName(author: String) -> String{
         ///Small algorithm to trim the author name
+        ///
+        /// mymail@flickr ("ARTIST")
         
         if (author.contains("(") && (author.contains(")"))) {
             

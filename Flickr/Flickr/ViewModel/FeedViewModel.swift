@@ -19,7 +19,9 @@ final class FeedViewModel{
     //MARK: - View Model Variables
     private weak var delegate: FeedViewModelDelegate?
     private var feedResponse = FeedResponse()
-    private var isLoading = false
+    var isLoading = false
+    //TODO: Add a page variable that can be send to the API for pagination
+    //var pageNumber = 1
     
     let apiClient = API()
     var currentRequest : String
@@ -55,6 +57,14 @@ final class FeedViewModel{
             }
             self!.feedResponse = FeedResponse!
             self!.delegate?.onDataFetched()
+            //TODO: Validate current page to append data
+            /*
+            if (self.pageNumber > 1)
+            {
+                self!.feedResponse.append(contentsOf: FeedResponse)
+            }
+            */
+            //TODO: Add 1 to page value to increase pagination
         })
         
         
